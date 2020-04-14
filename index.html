@@ -3,43 +3,38 @@
   <head>
     <meta charset="utf-8">
     <title>StingCunha Arts</title>
-    <style media="screen">
-      html, body{
-        height: 100%;
-      }
-      .title{
-        color: #ead907;
-        text-align: center;
-        text-shadow: #000 0 0 4px;
-      }
-
-      body{
-      background-image: linear-gradient(180deg, #03A9F4, #FFC107);
-      background-repeat: no-repeat;
-      background-size: inherit;
-      min-height: 100%;
-      }
-
-      .card{
-        background: #fff;
-        border-radius: 0.5em;
-        padding: 0.4em;
-        box-shadow: #333 2px 2px 8px;
-        transition: linear 0.2s background;
-      }
-      .subtitle{
-        text-align: center;
-      }
-      .card:hover {
-        background: blue;
-      }
-    </style>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="card">
+    <div class="card" onclick="greet()">
       <h1 class="title">StingCunha Arts</h1>
       <p class="subtitle">I'm a manga coloring artist</p>
     </div>
 
+    <!-- <img class="image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1325ad04-cf2e-40ff-ad8c-7c9950df54ea/ddqn9wh-97069195-43e0-400d-89da-3f08231f235b.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzEzMjVhZDA0LWNmMmUtNDBmZi1hZDhjLTdjOTk1MGRmNTRlYVwvZGRxbjl3aC05NzA2OTE5NS00M2UwLTQwMGQtODlkYS0zZjA4MjMxZjIzNWIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.qtoR4L7jQ944aNxYKQ45AmQKErMmOWBZq25ROM4i9ow"/> -->
+
+    <ul class="menu">
+      <li>
+        <a target="_blank" href="https://www.google.com/search?q=carnes&tbm=isch&ved=2ahUKEwj6wMT58uboAhXVCbkGHVmpDsMQ2-cCegQIABAA&oq=carnes&gs_lcp=CgNpbWcQAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAA6BQgAEIMBOgQIIxAnOgQIABBDUOW8iAFYm8OIAWCdxIgBaABwAHgAgAF5iAHfBJIBAzMuM5gBAKABAaoBC2d3cy13aXotaW1n&sclient=img&ei=pSOVXrraMtWT5OUP2dK6mAw&bih=657&biw=1366">
+          carnes
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://www.google.com/search?q=salada">
+        salada
+        </a>
+      </li>
+      <li>frutas
+        <ol>
+          <li>goiaba</li>
+          <li>pera</li>
+          <li>maracuja</li>
+        </ol>
+      </li>
+
+    </ul>
   </body>
+  <script src="index.js">
+  </script>
 </html>
